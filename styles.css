@@ -1,1 +1,54 @@
-styles.css
+body {
+  background-color: green;
+  color: white;
+  font-family: "helvetica";
+  max-width: 960;
+}
+
+p.question5 {
+  padding: 10px;
+  border: dotted;
+  margin-left: 20px;
+  background-color: blue;
+  font-style: italic;
+}
+
+nav.vertical {
+ vertical-align: top;
+  display: block;
+  float:left;
+  padding-left: 10px;
+}
+
+nav.vertical ul {
+  display: block;
+  /*vertical-align: top;*/
+  min-width: 75%;
+  float: left;
+  list-style-type: square;
+}
+
+main {
+  display: block;
+  float: right;
+  position: relative;*/
+  width: 75%;
+  padding-left: 10px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  letter-spacing: 2px;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: red;
+}
+
+.underl {
+   text-decoration: underline;
+}
+
+tr:nth-child(even) {
+   background-color: gray;
+}
